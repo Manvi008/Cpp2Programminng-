@@ -18,10 +18,14 @@ cout<<accumulate(vect.begin(),vect.end(),0);
     cout<<endl;
     cout<<"occurence of the element in the vector is";//to count th eoccurence
 cout<<count(vect.begin(),vect.end(),10);
+    find(vect.begin(), vect.end(),5) != vect.end()?
+                         cout << "\nElement found":
+                     cout << "\nElement not found";
 }
 
 /* output
 maximium number of the vector is14
 minimum of the vector is 10
 the sum of the vector elements is 49
-occurence of the element in the vector is 2*/
+occurence of the element in the vector is 2
+Element not found*/
