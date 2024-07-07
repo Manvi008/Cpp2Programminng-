@@ -16,7 +16,7 @@ cout<<endl;
 cout<<"the sum of the vector elements is ";//for finding the sum of the vector
 cout<<accumulate(vect.begin(),vect.end(),0);
     cout<<endl;
-    cout<<"occurence of the element in the vector is";
+    cout<<"occurence of the element in the vector is";//to count th eoccurence
 cout<<count(vect.begin(),vect.end(),10);
 }
 
