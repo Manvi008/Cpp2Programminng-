@@ -25,6 +25,11 @@ int main()
 	for (int i=0; i<n; i++)
 		cout << vect[i] << " ";
 
+	       cout << "Distance between first to max element: "; 
+    cout << distance(vect.begin(),
+                     max_element(vect.begin(), vect.end()));
+
+
 	return 0;
 }
 
@@ -34,4 +39,5 @@ Given Vector is:
 Vector after performing next permutation:
 5 10 15 20 20 23 45 42 
 Vector after performing prev permutation:
-5 10 15 20 20 23 42 45 */
+5 10 15 20 20 23 42 45 
+ Distance between first to max element: 7*/
