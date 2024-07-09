@@ -40,4 +40,5 @@ Vector after performing next permutation:
 5 10 15 20 20 23 45 42 
 Vector after performing prev permutation:
 5 10 15 20 20 23 42 45 
- Distance between first to max element: 7*/
+ Distance between first to max element: 7
+ */
