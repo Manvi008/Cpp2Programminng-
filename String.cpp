@@ -18,3 +18,22 @@ int main()
 }
 /*output
 geeksforgeeks*/
+
+/*2. std::string Class
+These are the new types of strings that are introduced in C++ as std::string class defined inside <string> header file. 
+This provides many advantages over conventional C-style strings such as dynamic size, member functions, etc.
+
+syntax:
+std::string str("GeeksforGeeks");*/
+
+#include<iostream>
+using namespace std;
+int main(){
+    string str("geeksfroGeeks");
+    cout<<str;
+    return 0;
+}
+
+
+/* Output:
+geeksfroGeeks */
