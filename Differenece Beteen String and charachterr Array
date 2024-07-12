@@ -1,0 +1,11 @@
+STRING
+  1 Strings define objects that can be represented as string streams.
+  2. No Array decay occurs in strings as strings are represented as objects.
+  3 A string class provides numerous functions for manipulating strings.
+  4 Dynamic Memory Allocation.
+
+  CHARACHTER ARRAY
+  1. The null character terminates a character array of characters.
+  2. The threat of array decayis present in the case of the character array 
+  3.	Character arrays do not offer inbuilt functions to manipulate strings.
+  4. The size of the character array has to be allocated statically. 
