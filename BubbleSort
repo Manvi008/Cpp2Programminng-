@@ -1,0 +1,30 @@
+// Online C++ compiler to run C++ program online
+#include <bits/stdc++.h>
+using namespace std;
+void BubbleSort(vector<int>& numbers){
+    for(int i = 0 ; i<numbers.size()-1 ; i++){
+        bool swapped = false ;
+        for(int j = 0 ; j < numbers.size()-i-1 ; j ++){
+            if(numbers[j]>  numbers[j+1]){
+                swap(numbers[j], numbers[j+1]);
+                
+            }
+        }
+        if(!swapped){
+            break;
+        }
+    }
+}
+void PrintVector(vector<int>& numbers){
+    for(int i = 0 ; i < numbers.size(); i ++){
+        cout<<numbers[i]<<" ";
+    }
+}
+int main() {
+    // Write C++ code here
+    vector<int> numbers = {1,9,7,60,3};
+    BubbleSort(numbers);
+    PrintVector(numbers);
+
+    return 0;
+}
